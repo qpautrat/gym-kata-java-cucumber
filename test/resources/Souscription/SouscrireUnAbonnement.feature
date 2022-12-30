@@ -22,3 +22,10 @@
         Soit : Une formule annuelle à 300 euros
         Lorsqu': Un abonnement est souscrit
         Alors : Le prix est de 270 euros
+
+    Règle: Réduction étudiante
+      Exemple: Une souscription à une formule mensuelle à 30 coûte 24 euros pour un étudiant
+        Soit : Une formule mensuelle à 30 euros
+        Et que : La personne qui souscrit est un étudiant
+        Lorsqu': Un abonnement est souscrit
+        Alors : Le prix est de 24 euros
