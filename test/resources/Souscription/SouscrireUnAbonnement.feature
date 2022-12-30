@@ -29,3 +29,10 @@
         Et que : La personne qui souscrit est un étudiant
         Lorsqu': Un abonnement est souscrit
         Alors : Le prix est de 24 euros
+
+    Règle: Les réductions ne se cumulent pas
+      Exemple: Une souscription à une formule annuelle à 300 euros coûte 240 euros pour un étudiant
+        Soit : Une formule annuelle à 300 euros
+        Et que : La personne qui souscrit est un étudiant
+        Lorsqu': Un abonnement est souscrit
+        Alors : Le prix est de 240 euros
