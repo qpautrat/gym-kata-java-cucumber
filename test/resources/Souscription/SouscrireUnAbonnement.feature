@@ -16,3 +16,9 @@
         Soit : Une formule mensuelle à 30 euros
         Lorsqu': Un abonnement est souscrit
         Alors : Le prix est de 30 euros
+
+    Règle: Réduction annuelle de 10%
+      Exemple: Une souscription à une formule annuelle à 300 euros coûte 270 euros
+        Soit : Une formule annuelle à 300 euros
+        Lorsqu': Un abonnement est souscrit
+        Alors : Le prix est de 270 euros

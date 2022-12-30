@@ -15,7 +15,12 @@ public class SouscrireUnAbonnement {
 
     @Soit(": Une formule mensuelle à {int} euros")
     public void uneFormuleMensuelleÀEuros(int prix) {
-        formule = new Formule(prix);
+        formule = new Formule(prix, false);
+    }
+
+    @Soit(": Une formule annuelle à {int} euros")
+    public void uneFormuleAnnuelleÀEuros(int prix) {
+        formule = new Formule(prix, true);
     }
 
     @Lorsqu(": Un abonnement est souscrit")
